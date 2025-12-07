@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-  
+   private GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -22,11 +22,13 @@ public class DetectCollisions : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Game Over ");
         }
-
-        Destroy(gameObject);
-        Destroy(other.gameObject);
-
-
+        if (other.CompareTag("animal"))
+        {
+            gameManager.AddScore(5);
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            
+        }
     }
    
 
