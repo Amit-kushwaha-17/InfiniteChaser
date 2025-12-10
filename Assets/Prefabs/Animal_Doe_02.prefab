@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 6328018943790896861}
   - component: {fileID: 8514197154744013601}
   - component: {fileID: 1054271138498451728}
+  - component: {fileID: 6395163768424780040}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: animal
@@ -135,6 +136,7 @@ Transform:
   - {fileID: 1812680101646876293}
   - {fileID: 1490198308782547922}
   - {fileID: 3556188711692032165}
+  - {fileID: 4825948037501168801}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!95 &2792729995497077841
@@ -217,6 +219,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.107075356, y: 0.34561944, z: 0.39324877}
   m_Center: {x: 0.0002611518, y: 0.17463353, z: 0.054835413}
+--- !u!114 &6395163768424780040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455323830662714296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95de1d32f5562f546a7b91dce7b44f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalHunger
+  Sliderhunger: {fileID: 0}
+  amountToBeFeed: 3
 --- !u!1 &3605766410289358162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,3 +1052,131 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000014901161, y: 0.0357289, z: 0.11530784}
     m_Extent: {x: 0.062572636, y: 0.22771719, z: 0.19990173}
   m_DirtyAABB: 0
+--- !u!1001 &3803335574696851394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6779692891110919604}
+    m_Modifications:
+    - target: {fileID: 7936767304000274053, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_Name
+      value: SliderCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194407991127816362, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83588266
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.17807686
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7936767304000274053, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1923905896453755606}
+  m_SourcePrefab: {fileID: 100100000, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+--- !u!224 &4825948037501168801 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8516623168908647267, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+  m_PrefabInstance: {fileID: 3803335574696851394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6551935097949882695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7936767304000274053, guid: 428c1f267b91f4b42866924895d2839d, type: 3}
+  m_PrefabInstance: {fileID: 3803335574696851394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1923905896453755606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551935097949882695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95de1d32f5562f546a7b91dce7b44f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalHunger
+  Sliderhunger: {fileID: 0}
+  amountToBeFeed: 5

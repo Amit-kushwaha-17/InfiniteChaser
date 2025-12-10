@@ -22,12 +22,10 @@ public class DetectCollisions : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Game Over ");
         }
-        if (other.CompareTag("animal"))
+        else if (other.CompareTag("animal"))
         {
-            gameManager.AddScore(5);
+            other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(gameObject);
-            Destroy(other.gameObject);
-            
         }
     }
    

@@ -4574,6 +4574,7 @@ GameObject:
   - component: {fileID: 7856195166464533234}
   - component: {fileID: 8064448952495958268}
   - component: {fileID: 2514809850602513092}
+  - component: {fileID: 749349583130191399}
   m_Layer: 0
   m_Name: Dog_BullDog_01
   m_TagString: animal
@@ -4713,6 +4714,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99db881376b8fd2429a8094828b157a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+--- !u!114 &749349583130191399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6287184566064147200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95de1d32f5562f546a7b91dce7b44f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalHunger
+  Sliderhunger: {fileID: 0}
+  amountToBeFeed: 3
 --- !u!1 &6368833878531554612
 GameObject:
   m_ObjectHideFlags: 0
